@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churrasco Hammer</title>
+    <link rel="stylesheet" href="desafiocss.css">   
+</head>
+<body>
+    <section>
+        <h3><b> Bem vindo ao Churrasco Hammer</h3></b>
+        <p><b>Qual seu nome?</p></b>
+        <input type="text" name="txt" id="txt">
+        <p><b>Sobre o churrasco responda abaixo</p></b>
+        <div>
+            <h5>No churrasco você...</h5>
+            <input type="radio" name="box2" id="p2opcao1">
+            <label for = "p2opcao1">Vai beber</label>
+            <input type="radio" name="box2" id="p2opcao2">
+            <label for = "p2opcao2">Não vai beber</label>
+            <input type="radio" name="box2" id="p2opcao3">
+            <label for = "p2opcao3">Não vou participar</label>
+        </div>
+        <div>
+            <h5>No churrasco seu convidado...</h5>
+            <input type="radio" name="box3" id="p3opcao1">
+            <label for = "p3opcao1">Vai beber</label>
+            <input type="radio" name="box3" id="p3opcao2">
+            <label for = "p3opcao2">Não vai beber</label>
+            <input type="radio" name="box3" id="p3opcao3">
+            <label for = "p3opcao3">Não vou levar convidado</label>
+        </div>
+        <input type="button" value="Confirmar" onclick="calcular()">  
+        
+        <p><b>Lista de convidados e participantes</p></b>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Confirmou presença</th>
+                    <th>Vai levar convidado</th>
+                    <th>Valor comida</th>
+                    <th>Valor bebida</th>
+                    <th>Valor total</th>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+        </section>
+<script src="desafiojs.js"></script>
+</body>
+</html>
